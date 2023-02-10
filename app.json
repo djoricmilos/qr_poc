@@ -1,0 +1,47 @@
+{
+    "expo": {
+        "name": "QRScanPoC",
+        "slug": "qrscanpoc",
+        "version": "0.0.1",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0,
+            "url": "https://u.expo.dev/d6a30382-b64b-4bcc-9c9e-0df948d3d67b"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "bundleIdentifier": "com.random.QRScanPoC",
+            "buildNumber": "0.0.1",
+            "supportsTablet": false,
+            "infoPlist": {
+                "NSCameraUsageDescription": "The aplication is not saving any images or data taken by camera. The camera can be used in the application only to scan barcodes or QR codes in order to recognize the products from the bill."
+            }
+        },
+        "android": {
+            "jsEngine": "hermes",
+            "icon": "./assets/icon.png",
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#fff"
+            },
+            "package": "com.random.QRScanPoC",
+            "versionCode": 1
+        },
+        "web": {},
+        "extra": {
+            "eas": {
+                "projectId": "d6a30382-b64b-4bcc-9c9e-0df948d3d67b"
+            }
+        },
+        "runtimeVersion": {
+            "policy": "sdkVersion"
+        }
+    }
+}

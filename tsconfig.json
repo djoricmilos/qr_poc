@@ -1,0 +1,23 @@
+{
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+        "strict": true,
+        "skipLibCheck": true,
+        "baseUrl": "./",
+        "paths": {
+            "@assets/*": ["assets/*"],
+            "@common/*": ["src/common/*"],
+            "@components/*": ["src/components/*"],
+            "@libs/*": ["src/libs/*"],
+            "@locales/*": ["src/locales/*"],
+            "@navigation/*": ["src/navigation/*"],
+            "@providers/*": ["src/providers/*"],
+            "@screens/*": ["src/screens/*"],
+            "@store/*": ["src/store/*"],
+            "@utils/*": ["src/utils/*"],
+            // FEATURES
+            "@eFiscal/*": ["src/features/eFiscal/*"],
+            "@toast/*": ["src/features/toast/*"]
+        }
+    }
+}
